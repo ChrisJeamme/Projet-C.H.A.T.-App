@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ConversationsComponent } from './pages/conversations/conversations.component';
 
 const routes: Routes = [
-  // { path: 'test', component: TestdukuComponent },
+  { path: 'test', component: ConversationsComponent },
 ];
 
 @NgModule({
